@@ -1,0 +1,27 @@
+@media print{
+	body{
+		width: 1024px;
+	}
+}
+body{
+	color: #094FA4;
+	padding: 20px;
+	margin: auto;
+}
+th{
+	font-weight: bold;
+	background-color: #3078D0;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+.table-hover>tbody>tr:hover{
+	background-color: #B5E5F9;
+}
+#btn_continuar{
+	margin-top: 20px;
+	background: linear-gradient(to bottom, #0079C1 0, #00529B 100%);
+	color: white;
+}
+#btn_continuar:hover{
+	background: #005098;
