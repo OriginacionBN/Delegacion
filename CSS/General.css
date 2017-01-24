@@ -46,9 +46,10 @@ th{
 	background-color: #B5E5F9;
 }
 #btn_continuar{
-	margin-top: 20px;
-	background: linear-gradient(to bottom, #0079C1 0, #00529B 100%);
-	color: white;
+	margin-top: 20px!important;
+	background: linear-gradient(to bottom, #0079C1 0, #00529B 100%)!important;
+	color: white!important;
 }
 #btn_continuar:hover{
-	background: #005098;
+	background: #005098!important;
+}
