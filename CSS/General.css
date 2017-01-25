@@ -40,9 +40,12 @@ th{
 	background-color: #3078D0;
 	color: white;
 	text-align: center;
-	vertical-align: middle;
+	vertical-align: middle!important;
 }
-.table-hover>tbody>tr:hover{
+.table-hover>tbody>th{
+	vertical-align: middle!important;
+}
+.table-hover>tbody>tr:hover{	
 	background-color: #B5E5F9;
 }
 #btn_continuar{
